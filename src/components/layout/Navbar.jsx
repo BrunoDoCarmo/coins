@@ -8,9 +8,9 @@ export function Navbar() {
 
     const links = [
         { path: "/", label: "Home" },
+        { path: "/projects", label: "Projetos" },
         { path: "/contact", label: "Contato" },
         { path: "/company", label: "Empresa" },
-        { path: "/newproject", label: "Novo Projeto" },
     ]
     return (
         <div className={styles.navbar}>
