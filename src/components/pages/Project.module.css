@@ -37,12 +37,13 @@
   border: none;
   cursor: pointer;
   max-height: 40px;
+  width: 15rem
 }
 
 .btn:hover {
   color: #ffbb33;
 }
 
-.form {
+.project_info {
   width: 100%;
 }
