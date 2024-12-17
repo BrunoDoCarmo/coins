@@ -1,31 +1,27 @@
 {
   "projects": [
     {
-      "id": "223a",
-      "name": "PROJETO ATUALIZADO",
-      "budget": "130000",
+      "id": "732c",
+      "name": "MEU PROJETO ALTERADO",
+      "budget": "7500",
       "category": {
         "id": "1",
         "name": "Infra"
       },
-      "cost": 0,
-      "services": []
+      "cost": 1500,
+      "services": [
+        {
+          "name": "MEU SERVIÇO",
+          "cost": "1500",
+          "description": "FAZ ISSO AQUI",
+          "id": "254a39da-107b-42d8-975f-e7ec60341b23"
+        }
+      ]
     },
     {
-      "id": "9938",
-      "name": "bruno",
-      "budget": "123",
-      "category": {
-        "id": "2",
-        "name": "Desenvolvimento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "becb",
-      "name": "bruno",
-      "budget": "123",
+      "id": "f64a",
+      "name": "MEU PROJETO ALTERADO",
+      "budget": "7500",
       "category": {
         "id": "3",
         "name": "Design"
@@ -34,23 +30,12 @@
       "services": []
     },
     {
-      "id": "bd0a",
-      "name": "bruno",
-      "budget": "123",
+      "id": "4ad8",
+      "name": "MEU PROJETO ALTERADO",
+      "budget": "7500",
       "category": {
-        "id": "4",
-        "name": "Planejamento"
-      },
-      "cost": 0,
-      "services": []
-    },
-    {
-      "id": "7df5",
-      "name": "bruno",
-      "budget": "123",
-      "category": {
-        "id": "1",
-        "name": "Infra"
+        "id": "3",
+        "name": "Design"
       },
       "cost": 0,
       "services": []

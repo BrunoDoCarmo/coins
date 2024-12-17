@@ -1,6 +1,6 @@
 import styles from './Input.module.css'
 
-export function Input( { type, text, name, placeholder, handleOnChange, value } ) {
+export function Input( { type, text, name, placeholder, handleOnChange, value, onKeyUp } ) {
     return (
         <div className={styles.form_control}>
             <label htmlFor={ name }> { text }:</label>
@@ -11,6 +11,7 @@ export function Input( { type, text, name, placeholder, handleOnChange, value } 
                 placeholder={placeholder}
                 onChange={handleOnChange}
                 value={value}
+                onKeyUp={onKeyUp}
             />
         </div>
     )

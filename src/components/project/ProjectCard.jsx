@@ -1,3 +1,4 @@
+import ConversaoMoeda from '../../utils/ConversaoMoeda'
 import { Link } from 'react-router-dom'
 
 import styles from './ProjectCard.module.css'
@@ -15,7 +16,7 @@ export function ProjectCard({ id, name, budget, category, handleRemove }) {
     <div className={styles.project_card}>
         <h4>{ name }</h4>
         <p>
-            <span>Orçamento:</span> R${ budget }
+            <span>Orçamento:</span> {ConversaoMoeda(Number(budget))}
         </p>
         <p className={styles.category_text}>
             <span className={`${styles[category.toLowerCase()]}`}></span> { category }
