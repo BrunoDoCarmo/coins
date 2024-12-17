@@ -1,4 +1,4 @@
-export default function MascaraMoeda(value) {
+export default function MascaraMoeda(valor) {
     var valorAlterado = valor.value
 	valorAlterado = valorAlterado.replace(/\D/g, ""); // Remove todos os não dígitos
 	valorAlterado = valorAlterado.replace(/(\d+)(\d{2})$/, "$1,$2"); // Adiciona a parte de centavos
