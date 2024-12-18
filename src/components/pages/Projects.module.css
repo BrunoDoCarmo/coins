@@ -15,7 +15,6 @@
   justify-content: center;
   flex-wrap: wrap;
   overflow-y: auto;
-  height: 63vh;
   transition: .5s all;
   border-top: 0.1rem solid #000;
 }

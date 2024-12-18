@@ -47,3 +47,7 @@
 .project_info {
   width: 100%;
 }
+.teste {
+  height: 35.5vh;
+  overflow-y: auto;
+}

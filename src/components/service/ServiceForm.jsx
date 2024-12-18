@@ -1,7 +1,6 @@
 import { useState } from 'react'
 import { Input } from '../form/Input'
 import { SubmitButton } from '../form/SubmitButton'
-import MascaraMoeda from '../../utils/MascaraMoeda'
 
 import styles from '../project/ProjectForm.module.css'
 
@@ -28,12 +27,11 @@ export function ServiceForm( { handleSubmit, btnText, projectData } ) {
                 handleOnChange={handleChange}
             />
             <Input
-                type="text"
+                type="number"
                 text="Custo do serviço"
                 name="cost"
                 placeholder="Insira o valor total"
                 handleOnChange={handleChange}
-                onKeyUp={(e) => MascaraMoeda(e.target)}
             />
             <Input
                 type="text"
