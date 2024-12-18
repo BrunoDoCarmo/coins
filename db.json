@@ -1,33 +1,9 @@
 {
   "projects": [
     {
-      "id": "bfc6",
+      "id": "2e51",
       "name": "BRUNO DE SOUSA TEIXEIRA DO CARMO",
-      "budget": "7500",
-      "category": {
-        "id": "1",
-        "name": "Infra"
-      },
-      "cost": 1104,
-      "services": [
-        {
-          "name": "teste",
-          "cost": "552",
-          "description": "rreste",
-          "id": "35562e6b-ee23-4f5f-a81c-4029e22a0035"
-        },
-        {
-          "name": "teste",
-          "cost": "552",
-          "description": "rreste",
-          "id": "5054b51f-bbc8-4a41-bf91-e723714019b0"
-        }
-      ]
-    },
-    {
-      "id": "3d74",
-      "name": "BRUNO DE SOUSA TEIXEIRA DO CARMO",
-      "budget": "7500",
+      "budget": "750",
       "category": {
         "id": "1",
         "name": "Infra"
